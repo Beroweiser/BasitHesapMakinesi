@@ -19,8 +19,8 @@ public class BasitHesapMakinesi {
             case 4:
                 switch (n2){
                     case 0:
-                    System.out.println("Bir sayı sıfıra bolunemez !!");
-                    break;
+                        System.out.println("Bir sayı sıfıra bolunemez !!");
+                        break;
                     default:System.out.println("Bolme = "+ (n1 / n2));
                 }
                 break;
